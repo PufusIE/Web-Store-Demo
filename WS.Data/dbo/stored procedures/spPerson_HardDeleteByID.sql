@@ -1,5 +1,5 @@
-﻿CREATE PROCEDURE [dbo].[spPerson_HardDeleteByID]
-	@Id int = 0
+﻿CREATE PROCEDURE [dbo].[spPerson_HardDeleteById]
+	@Id int
 	
 AS
 	set nocount on;

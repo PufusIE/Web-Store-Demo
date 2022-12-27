@@ -63,8 +63,9 @@
   <ItemGroup>
     <Build Include="dbo\tables\Person.sql" />
     <Build Include="dbo\stored procedures\spPerson_GetAll.sql" />
-    <Build Include="dbo\stored procedures\spPerson_GetByID.sql" />
+    <Build Include="dbo\stored procedures\spPerson_GetById.sql" />
+    <Build Include="dbo\stored procedures\spPerson_AddNewUser.sql" />
+    <Build Include="dbo\stored procedures\spPerson_HardDeleteById.sql" />
     <Build Include="dbo\stored procedures\spPerson_UpdateRecord.sql" />
-    <Build Include="dbo\stored procedures\spPerson_HardDeleteByID.sql" />
   </ItemGroup>
 </Project>

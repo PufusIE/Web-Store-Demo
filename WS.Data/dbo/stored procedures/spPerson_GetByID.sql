@@ -1,5 +1,5 @@
-﻿CREATE PROCEDURE [dbo].[spPerson_GetByID]
-	@Id int = 0
+﻿CREATE PROCEDURE [dbo].[spPerson_GetById]
+	@Id int
 as
 begin
 	   set nocount on;
